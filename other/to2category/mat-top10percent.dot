@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="X[14] <= 0.5\nentropy = 0.4596\nsamples = 237\nvalue = [214, 23]"] ;
+1 [label="entropy = 0.5288\nsamples = 192\nvalue = [169, 23]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="entropy = 0.0\nsamples = 45\nvalue = [45, 0]"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

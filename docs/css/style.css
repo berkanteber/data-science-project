@@ -1,0 +1,129 @@
+html, body, div
+{
+	margin:0;
+	overflow:hidden;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.top
+{
+	background-color:	#add8e6;
+	color: white;
+	text-align: center;
+}
+
+.buttons
+{
+	margin:0 auto;
+	background-color:	#add8e6;
+	text-align: center;
+}
+
+.buttons ul {
+	display:inline-block;
+  list-style:none;
+  height:40px;
+  padding:0;
+  background: #f4f4f4;
+  border-radius:5px;
+  border:1px solid #e0e0e0;
+  width:270px;
+}
+
+.buttons li {
+  width:89px;
+  float:left;
+  border-right:1px solid #e0e0e0;
+  height:40px;
+}
+
+.buttons li:first-child a {
+  border-radius:5px 0 0 5px;
+}
+
+.buttons li:last-child a {
+  border-radius:0 5px 5px 0;
+}
+
+.buttons ul a {
+  line-height:1;
+  font-size:11px;
+  color:#999;
+  display:block;
+  text-align:center;
+  padding-top:6px;
+  height:34px;
+}
+
+.buttons ul a strong {
+  font-size:14px;
+  display:block;
+  color:#222;
+}
+
+.buttons ul li + li + li {
+  border-right:none;
+  width:89px;
+}
+
+.bloglinks
+{
+  padding: 30px;
+}
+
+.reports
+{
+  padding: 30px;
+}
+
+.r1, .r2, .r3 {
+	padding: 10px;
+}
+
+.button-pdf
+{
+	margin:0 auto;
+	text-align: center;
+}
+
+.button-pdf ul {
+	display:inline-block;
+  list-style:none;
+  height:40px;
+  padding:0;
+  background: #add8e6;
+	border-color: #009b88;
+	border-style: double;
+	border-radius:5px;
+  width:135px;
+}
+
+.button-pdf li {
+  width:134px;
+  float:left;
+  height:40px;
+}
+
+.button-pdf li:first-child a {
+  border-radius:5px 0 0 5px;
+}
+
+.button-pdf li:last-child a {
+  border-radius:0 5px 5px 0;
+}
+
+.button-pdf ul a {
+  line-height:1;
+  font-size:11px;
+  color:#999;
+  display:block;
+  text-align:center;
+  padding-top:6px;
+  height:34px;
+}
+
+.button-pdf ul a strong {
+  font-size:14px;
+  display:block;
+  color:#222;
+}
